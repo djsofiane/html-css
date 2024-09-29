@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.bloc {
+
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 4Opx; /* Crée un espace entre les blocs */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.bloc1 {
+    background-color: blue; 
+    color: white;
+}
+
+.bloc2 {
+    background-color: aqua;
+    color: black;
+    text-align: center;
+}
+
+.bloc3 {
+    background-color:aquamarine;
+    color: black;
+}
+
+.bloc4{
+    background-color: ghostwhite;
+    color: black;
+
+}
+.small1 {
+    width: 1400px;
+    height: 400px; 
+    
+}
+
+.social-media-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    background-color: blue;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.1); 
+}
+
+
+.etiq {
+
+    color: black;
+
+}
+
+#contact {
+
+    
+    width: 500px;
+    padding: 100px;
+    margin: 100px auto;
+    
+}
+
+label, input {
+    display: block;
+    font-weight: bold;
+    
+}
+
+[type="submit"]
+{
+margin-top: 10px;
+color: green;
+
+}
+.background-page {
+    background-image: url(images/Cap2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin : 0
+}
+
+.background-paj {
+    background-image: url(images/Cap2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    margin : 0
+}
+
+
+
