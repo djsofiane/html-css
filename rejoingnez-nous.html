@@ -1,45 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rejoignez-nous</title>
-    <link rel="stylesheet" href="style.css">
-    
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-
-<body class="background-page">
+  <body class="background-page">
     <h2 id="Rejoignez">Rejoignez-nous</h2>
-<div></div>
+    <div></div>
     <section id="contact">
-        <form id="formulaire" action="mailto:example@association.it" method="post" enctype="text/plain">
-            <label for="name" class="etiq">Nom :</label>
-            <input type="text" id="name" name="name" >
-            <div class="error-message" id="error-nom"></div>
+      <form
+        id="formulaire"
+        action="mailto:example@association.it"
+        method="post"
+        enctype="text/plain"
+      >
+        <label for="name" class="etiq">Nom :</label>
+        <input type="text" id="name" name="name" data-cy="firstName" />
+        <div class="error-message" id="error-nom"></div>
 
-            <label for="pr" class="etiq">Prenom :</label>
-            <input type="text" id="pr" name="prenom" >
-            <div class="error-message" id="error-prenom" ></div>
-            
-            <label for="email" class="etiq">Email :</label>
-            <input type="email" id="email" name="email" >
-            <div class="error-message" id="error-email" ></div>
-            
-            <label for="message" class="etiq">Message :</label>
-            
-            
-            <input id="lolo" type="submit" class="etiq" value="Envoyer">
-        </form>
+        <label for="pr" class="etiq">Prenom :</label>
+        <input type="text" id="pr" name="prenom" data-cy="secondName" />
+        <div class="error-message" id="error-prenom"></div>
+
+        <label for="email" class="etiq">Email :</label>
+        <input type="email" id="email" name="email" />
+        <div class="error-message" id="error-email"></div>
+
+        <label for="message" class="etiq">Message :</label>
+
+        <input id="lolo" type="submit" class="etiq" value="Envoyer" />
+      </form>
     </section>
-    
 
-    <a href="index.html" class="tizi">Retour </a>
-    
-</body>
+    <a href="index.html" class="tizi" data-cy="ret">Retour </a>
+  </body>
 
-
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </html>
-
-
